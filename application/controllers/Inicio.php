@@ -12,6 +12,7 @@ class Inicio extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('inicio');
+		/* comentario agregado*/
 		//$this->load->view('boletas_censadas', $data);	
 	}
 }
