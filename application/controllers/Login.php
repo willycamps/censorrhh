@@ -25,7 +25,8 @@ class Login extends CI_Controller {
 		
 		$rolesDbRes = $this->usuario_model->autenticarUsuario($params);
 		
-		if ($rolesDbRes != false) { 
+		if ($rolesDbRes != false) 
+		{ 
 			$rolesDataSet = $rolesDbRes->result()[0];
 			//set sessions
 			$this->session->set_userdata('sesion', true);
@@ -52,7 +53,9 @@ class Login extends CI_Controller {
 					redirect("login");
 					break;
 			}
-		} else {
+		} 
+		else 
+		{
 			$data['login_estatus']='1';
 			$data['usuario_negado'] = $params['userid'];
 			$this->load->view('login',$data);

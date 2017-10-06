@@ -5,17 +5,21 @@
 	<link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css" />	
 	<link rel="stylesheet" type="text/css" href="/theme/css/login.css" />
+	
+	<div class="text-center">
+	<h1 class="text-center login-title">Censo Nacional del Recurso Humano </h1>			
+		<img src="/theme/font-awesome/fonts/CCRRHH.png" height="100" width="100"> 
+		<img src="/theme/font-awesome/fonts/INE.png"  height="100" width="100"> 
+		<img src="/theme/font-awesome/fonts/Gobierno-Guatemala.png"  height="100" width="100"> 
+	</div>
+	
 </head>
 <body>
-	<div class="container">
+	<!-- <div class="container"> -->
 		
 		
 		<div class="text-center">
-			<h1 class="text-center login-title">Censo Nacional del Recurso Humano </h1>
 			
-			 <img src="/theme/font-awesome/fonts/CCRRHH.png" height="100" width="100"> 
-			 <img src="/theme/font-awesome/fonts/INE.png"  height="100" width="100"> 
-			<img src="/theme/font-awesome/fonts/Gobierno-Guatemala.png"  height="100" width="100"> 
 			
 			<!-- <div class="col-sm-6 col-md-4 col-md-offset-4"> -->							
 				<?php echo form_open("/login/iniciarSesion", array('autocomplete' => 'off', 'class' => 'form-signin')) ?>
@@ -73,10 +77,10 @@
             ?>
 				<a href="#" class="text-center new-account">Create an account </a>
 			</div>
-		</div>
+		</div> 
 		
 		
 		
-	</div>
+	<!-- </div>-->
 </body>
 </html>

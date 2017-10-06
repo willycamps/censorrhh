@@ -10,6 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="/theme/css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css" />
 	
+	<div class="text-center">
+	<h1 class="text-center login-title">Censo Nacional del Recurso Humano </h1>			
+		<img src="/theme/font-awesome/fonts/CCRRHH.png" height="100" width="100"> 
+		<img src="/theme/font-awesome/fonts/INE.png"  height="100" width="100"> 
+		<img src="/theme/font-awesome/fonts/Gobierno-Guatemala.png"  height="100" width="100"> 
+	</div>
+	
 	<script type="text/javascript" src="/theme/js/jquery.js"></script>
 	<script type="text/javascript" src="/theme/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/theme/js/jquery.dataTables.js"></script>

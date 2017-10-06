@@ -10,6 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();  ?>theme/css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url();  ?>theme/font-awesome/css/font-awesome.min.css" />
 	
+	<div class="text-center">
+	<h1 class="text-center login-title">Censo Nacional del Recurso Humano </h1>			
+		<img src="/theme/font-awesome/fonts/CCRRHH.png" height="100" width="100"> 
+		<img src="/theme/font-awesome/fonts/INE.png"  height="100" width="100"> 
+		<img src="/theme/font-awesome/fonts/Gobierno-Guatemala.png"  height="100" width="100"> 
+	</div>
+	
 	<script type="text/javascript" src="<?php echo base_url();  ?>theme/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();  ?>theme/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();  ?>theme/js/jquery.dataTables.js"></script>
@@ -24,10 +31,10 @@
 	?>
 </head>
 <body>
-	<div class="container">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
+	<!-- <div class="container"> -->
+		<!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
+		<!--	<div class="container-fluid"> -->
+			<!-- <div class="navbar-header"> -->
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
 						<span class="sr_only">Menu</span>
 						<span class="icon-bar"></span>
@@ -35,7 +42,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="#">Instituto Nacional de Estadística</a>
-				</div>
+			<!--	</div> -->
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 					<?php
@@ -113,7 +120,9 @@
 							</ul>
 						</li>
 					</ul>
-				</div>
-			</div>
-		</nav>
-	</div> <!-- end container -->
+				
+	
+	</div>
+		<!--	</div> -->
+	<!-- </nav> -->
+	<!-- </div> --> <!-- end container -->
